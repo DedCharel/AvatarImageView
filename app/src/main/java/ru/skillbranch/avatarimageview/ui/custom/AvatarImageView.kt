@@ -65,7 +65,7 @@ class AvatarImageView @JvmOverloads constructor(
                 R.styleable.AvatarImageView_aiv_borderWidth,
                 context.dpToPix(DEFAULT_BORDER_WIDTH)
             )
-            borderColor = ta.getColor(R.styleable.AvatarImageViewShader_aivs_borderColor,DEFAULT_BORDER_COLOR)
+            borderColor = ta.getColor(R.styleable.AvatarImageView_aiv_borderColor,DEFAULT_BORDER_COLOR)
             initials = ta.getString(R.styleable.AvatarImageView_aiv_initials) ?: "??"
             ta.recycle()
         }
